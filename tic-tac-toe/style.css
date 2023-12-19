@@ -1,0 +1,101 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    
+    background-color: #DDD0C8;
+    color: #323232;
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#game-area {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+}
+ 
+.reset-btn{
+    padding: 1rem;
+    border: none;
+    font-size: 1.25rem;
+    background-color: #323232;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.new-Game-btn{
+    padding: 1rem;
+    border: none;
+    font-size: 20px;
+    background-color: #323232;
+    color: white;
+    border-radius: 1rem;
+    font-weight: bold;
+
+}
+
+#msg{
+    color: #323232 ;
+    
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    font-size: 40px;
+    font-weight: bold;
+}
+.hide{
+    display: none;
+}
+
+h1{
+  height: 15vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+ }
+ 
+ .turnO{
+    background-color: #653A3E;
+    color: white;
+    
+ }
+
+.turnX{
+    background-color: #6E6E6E;
+    color: black;
+}
